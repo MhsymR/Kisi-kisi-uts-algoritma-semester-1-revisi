@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisi-Kisi Struktur Data</title>
+    <!-- Menghubungkan ke CDN Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header -->
+    <header class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-semibold">Kisi-Kisi Struktur Data</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-8">
+        <div class="space-y-8">
+            
+            <!-- Definisi Struktur Data -->
+            <section class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold text-gray-800">1. Definisi Struktur Data</h2>
+                <p class="mt-4 text-gray-600">Struktur data adalah cara mengorganisir, mengelola, dan menyimpan data agar bisa diakses dan dimodifikasi dengan efisien.</p>
+                <p class="mt-4 text-gray-600"><strong>Contoh nyata:</strong> Struktur data seperti array dapat diimplementasikan dalam penyimpanan data siswa di sekolah berdasarkan urutan kelas.</p>
+            </section>
+
+            <!-- Perbedaan Tipe Data, Variabel, dan Konstanta -->
+            <section class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold text-gray-800">2. Perbedaan Tipe Data, Variabel, dan Konstanta</h2>
+                <ul class="mt-4 text-gray-600 space-y-2">
+                    <li><strong>Tipe Data:</strong> Menentukan jenis nilai, seperti int, float, char, atau boolean.</li>
+                    <li><strong>Variabel:</strong> Tempat untuk menyimpan data yang nilainya bisa berubah.</li>
+                    <li><strong>Konstanta:</strong> Tempat untuk menyimpan data yang nilainya tetap.</li>
+                </ul>
+            </section>
+
+            <!-- Array dalam Struktur Data -->
+            <section class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold text-gray-800">3. Array dalam Struktur Data</h2>
+                <p class="mt-4 text-gray-600">Array adalah struktur data yang menyimpan sejumlah elemen dengan tipe yang sama dalam satu blok memori. Elemen array diakses dengan indeks.</p>
+                <pre class="bg-gray-200 p-4 rounded-lg mt-4 overflow-auto"><code>int angka[5] = {10, 20, 30, 40, 50};
+int nilaiPertama = angka[0];  // Mengakses elemen pertama</code></pre>
+            </section>
+
+            <!-- Matriks dalam Struktur Data -->
+            <section class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold text-gray-800">4. Matriks dalam Struktur Data</h2>
+                <p class="mt-4 text-gray-600">Matriks adalah array dua dimensi yang menyimpan data dalam bentuk baris dan kolom. Perbedaan dengan array satu dimensi adalah array dua dimensi memiliki struktur tabel.</p>
+                <pre class="bg-gray-200 p-4 rounded-lg mt-4 overflow-auto"><code>matriks = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+nilai = matriks[1][2];  // Mengakses elemen pada baris 2 kolom 3</code></pre>
+            </section>
+
+            <!-- Algoritma Bubble Sort -->
+            <section class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold text-gray-800">5. Algoritma Bubble Sort</h2>
+                <p class="mt-4 text-gray-600">Bubble Sort adalah algoritma pengurutan dengan cara membandingkan elemen berurutan dan menukarnya jika urutannya salah.</p>
+                <p class="mt-4 text-gray-600"><strong>Kelebihan:</strong> Mudah dipahami. <br><strong>Kekurangan:</strong> Kurang efisien untuk data besar (O(n²)).</p>
+            </section>
+
+            <!-- Linear Search dan Binary Search -->
+            <section class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold text-gray-800">6. Linear Search dan Binary Search</h2>
+                <ul class="mt-4 text-gray-600 space-y-2">
+                    <li><strong>Linear Search:</strong> Memeriksa elemen satu per satu.</li>
+                    <li><strong>Binary Search:</strong> Memecah data terurut menjadi dua bagian untuk pencarian lebih cepat (O(log n)).</li>
+                </ul>
+            </section>
+
+            <!-- Record dalam Struktur Data -->
+            <section class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-semibold text-gray-800">7. Record dalam Struktur Data</h2>
+                <p class="mt-4 text-gray-600">Record adalah struktur data yang dapat menyimpan elemen data dengan tipe berbeda dalam satu entitas, seperti objek dalam OOP.</p>
+                <pre class="bg-gray-200 p-4 rounded-lg mt-4 overflow-auto"><code>mahasiswa = {
+    "nama": "Andi",
+    "NIM": 123456,
+    "tanggal_lahir": "2000-01-01"
+}</code></pre>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2024 MhsymR.</p>
+    </footer>
+</body>
+</html>
